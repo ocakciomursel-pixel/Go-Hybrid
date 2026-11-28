@@ -1,3 +1,7 @@
+## Contributor validation — unittest name filters (#1570, 2026-11-28)
+
+- Refreshed existing PR #2304 onto current main. The two filtered-discovery regressions fail on both main and #3306 head `22a47179` (six failing subcases each); the refreshed guard passes all 53 registration tests and the repository registration check. #3306 handles heredoc payloads and does not reject `-k`. No compiler changes; hosted CI and maintainer review remain pending.
+
 # Hybrid Language: Development Plan
 
 ## Contributor validation â€” triage board target (2026-11-06)
